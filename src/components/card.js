@@ -8,7 +8,7 @@ const Card = (props) => {
             <Modal name={props.name} title={props.title} bio={props.bio} photo={props.photo} id={props.id}/>
 
             <div className="row">
-                <img className="strong-img" src={props.photo}/>
+            <a href="#" data-bs-toggle="modal" data-bs-target={"#"+props.id}><img className="strong-img" src={props.photo}/></a>
             </div>
             <div className="row">
                 <div className="desc">
