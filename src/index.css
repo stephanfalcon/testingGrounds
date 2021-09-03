@@ -1,0 +1,70 @@
+*{    
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600 !important;}
+
+.strong-img{
+  background:gray;
+  height:450px;
+  padding:0px !important;
+  border-radius: 10px 10px 10px 10px;
+  transition-duration: .3;
+}
+.modal-img{
+  height:450px;
+}
+.close{
+  float: right;
+}
+body{
+  background:rgb(240, 240, 240);
+}
+.row{
+  padding:0px !important;
+  --bs-gutter-x:0px;
+}
+.card{
+  padding:0px;
+  margin:10px;
+  width:394px;
+  padding-bottom:10px;
+  border-radius:10px 10px 10px 10px;
+  border:0px
+}
+.desc{
+  padding-left:10px;
+}
+.container{
+}
+
+h1,h2,h3,h4,h5,h6,a,p{
+  padding:5px;
+}
+
+.modal-row{
+  display:flex;
+}
+
+.modal-cont{
+  flex:1
+}
+
+.modal-dialog{
+  max-width:900px;
+}
+
+.modal-words{
+  padding:10px 50px 25px 30px;
+}
+
+.modal-title{
+  padding-left:50px
+}
+
+.modal-header{
+  justify-content: right;
+}
+
+.modal-img{
+  border-radius: 10px;
+}
+
