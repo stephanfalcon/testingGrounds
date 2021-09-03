@@ -14,7 +14,7 @@ const Card = (props) => {
                 <div className="desc">
                     <h3 className="person">{props.name}</h3>
                     <h6 className="title">{props.title}</h6>
-                    <a href="#" data-bs-toggle="modal" data-bs-target={"#"+props.id}>view bio</a>
+                    <a href="#" className="bio-link" data-bs-toggle="modal" data-bs-target={"#"+props.id}>view bio</a>
                 </div>
             </div>
         </div>
